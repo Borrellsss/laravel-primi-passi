@@ -30,7 +30,7 @@
         </nav>
     </header>
     <main>
-        <h1>HOME</h1>
+        <h1>SHOP</h1>
     </main>
 </body>
 </html>

@@ -14,10 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $cat = [
-        'name' => 'Erwin',
-        'age' => 1,
-        'color' => 'black',
-    ];
-    return view('home', $cat);
-});
+    return view('home');
+})->name('home');
+
+Route::get('about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('shop', function () {
+    return view('shop');
+})->name('shop');
+
+Route::get('partners', function () {
+    return view('partners');
+})->name('partners');
+
+Route::get('docs', function () {
+    return view('docs');
+})->name('docs');
