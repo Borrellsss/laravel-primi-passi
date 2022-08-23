@@ -8,5 +8,19 @@
 </head>
 <body>
     <h1>HELLO WORLD</h1>
+
+    <h2>MY CAT</h2>
+
+    <ul>
+        <li>
+            Name: {{$name}}
+        </li>
+        <li>
+            Age: {{$age}} year
+        </li>
+        <li>
+            Color: {{$color}}
+        </li>
+    </ul>
 </body>
 </html>

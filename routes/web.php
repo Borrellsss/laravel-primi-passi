@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $cat = [
+        'name' => 'Erwin',
+        'age' => 1,
+        'color' => 'black',
+    ];
+    return view('home', $cat);
 });
